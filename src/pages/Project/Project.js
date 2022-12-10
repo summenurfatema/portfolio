@@ -10,7 +10,7 @@ const Project = () => {
             <div className='space-y-2 md:space-y-6'>
                 <h1 className='text-2xl text-center border-b-2 mt-14 pb-4'>My Projects</h1>
                 <div className='py-4 md:py-10'>
-                    <a href="#" className="group relative">
+                    <a href="https://eloquent-elf-d6f868.netlify.app" className="group relative">
                         <img
                             alt="Developer"
                             src={learning}
@@ -31,7 +31,7 @@ const Project = () => {
                 </div>
                 {/* 2 */}
                 <div className='pb-5 md:pb-14'>
-                    <a href="#" className="group relative">
+                    <a href="https://majestic-longma-703fb9.netlify.app" className="group relative">
                         <img
                             alt="Developer"
                             src={quiz}
@@ -55,7 +55,7 @@ const Project = () => {
                 </div>
                 {/* 3 */}
                 <div>
-                    <a href="#" className="group relative">
+                    <a href="https://venerable-croissant-d52d11.netlify.app/" className="group relative">
                         <img
                             alt="Developer"
                             src={furnica}
