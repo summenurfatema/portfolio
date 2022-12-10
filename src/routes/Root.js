@@ -1,3 +1,6 @@
+import Contect from "../pages/Contect/Contect";
+import Skills from "../pages/Footer/Skills/Skills";
+import Project from "../pages/Project/Project";
 import Resume from "../pages/Resume/Resume";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -13,9 +16,18 @@ const router = createBrowserRouter([
                 path: '/',
                 element: <Home />
             },
+
             {
-                path: '/resume',
-                element: <Resume />
+                path: '/contact',
+                element: <Contect />
+            },
+            {
+                path: '/skills',
+                element: <Skills />
+            },
+            {
+                path: '/projects',
+                element: <Project />
             }
         ]
     }

@@ -1,12 +1,14 @@
 import React from 'react';
+import Project from '../Project/Project';
 
 import Hero from './Hero';
 
 const Home = () => {
     return (
-        <div>
+        <div className='mb-14'>
 
             <Hero />
+            <Project />
 
         </div>
     );

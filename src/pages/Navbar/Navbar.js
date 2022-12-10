@@ -4,21 +4,61 @@ import img from '../../assets/me.jpg'
 
 const Navbar = () => {
     return (
-        <div className='flex flex-col items-center space-y-2 w-96'>
-            <div className="">
-                <img src={img} className="h-36 rounded-full shadow-2xl border-dashed border-4 border-red-400" alt='' />
+        <div className='flex flex-col items-center space-y-4 w-96 md:border-r-2'>
+            <div className=" rounded-full border-dotted border-4 border-blue-400">
+                <img src={img} className="h-40 rounded-full shadow-2xl p-1" alt='' />
             </div>
             <>
-                <h1 className='font-bold text-3xl'>Fatema Summe Nur</h1>
-                <p className='font-bold text-xl'>Front-end Web Developer</p>
+                <h1 className='font-semibold text-3xl'>Fatema Summe Nur</h1>
+                <p className='font-semibold text-xl border-b pb-5'>Front-end Web Developer</p>
             </>
-            <ul className='space-y-4 text-3xl font-semibold'>
-                <li className='bg-red-400 px-3 py-2 text-center rounded-lg text-gray-800'><Link to=''>Home</Link></li>
-                <li className='bg-red-400 px-3 py-2 text-center rounded-lg text-gray-800'><Link to=''>Education</Link></li>
-                <li className='bg-red-400 px-3 py-2 text-center rounded-lg text-gray-800'><Link to=''>Projects</Link></li>
-                <li className='bg-red-400 px-3 py-2 text-center rounded-lg text-gray-800'><Link to=''>Skills</Link></li>
-                <li className='bg-red-400 px-3 py-2 text-center rounded-lg text-gray-800'><Link to=''>Contact me</Link></li>
-                <li className='bg-red-400 px-3 py-2 text-center rounded-lg text-gray-800'><Link to='/resume'>Resume</Link></li>
+            <ul className='space-y-4 text-2xl font-semibold pr-7'>
+
+
+                <li>
+                    <button className='btn btn-outline w-full '>
+
+                        <Link to='/'>Home</Link>
+                    </button>
+
+                </li>
+
+
+                <li>
+                    <button className='btn btn-outline w-full '>
+
+                        <Link to=''>Education</Link>
+                    </button>
+
+                </li>
+
+
+                <li>
+                    <button className='btn btn-outline w-full '>
+
+                        <Link to=''>Projects</Link>
+                    </button>
+
+                </li>
+
+                <li>
+                    <button className='btn btn-outline w-full '>
+
+                        <Link to='/skills'>Skills</Link>
+                    </button>
+
+                </li>
+
+
+                <li className=''>
+                    <button className='btn btn-outline w-full px-16 '>
+
+                        <Link to='/contact'>Contact</Link>
+                    </button>
+
+                </li>
+
+
             </ul>
         </div>
     );
