@@ -9,7 +9,7 @@ const Project = () => {
     return (
         <div id='projects'>
             <div className='space-y-2 md:space-y-6'>
-                <h1 className='text-2xl text-center border-b-2 mt-14 pb-4'>My Projects</h1>
+                <h1 className='text-3xl font-semibold border-b-2 mt-14 pb-4'>My Projects</h1>
                 <div className='py-4 md:py-10'>
                     <a href="https://eloquent-elf-d6f868.netlify.app" className="group relative">
                         <img
@@ -78,7 +78,7 @@ const Project = () => {
 
             </div>
             <Link to='/allprojects'>
-                <button className='btn btn-outline mt-10 md:mt-20'>see more</button>
+                <button className='btn btn-outline mt-10 md:mt-20'>see more project</button>
             </Link>
         </div>
 

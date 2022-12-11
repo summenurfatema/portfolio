@@ -2,6 +2,7 @@
 import './App.css';
 import { RouterProvider } from 'react-router-dom';
 import router from './routes/Root';
+import ScrollToTop from 'react-scroll-to-top';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <RouterProvider router={router}>
 
       </RouterProvider>
+      <ScrollToTop />
     </div>
   );
 }

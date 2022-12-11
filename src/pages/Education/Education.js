@@ -2,17 +2,17 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div>
+        <div className='-mb-16' id='education'>
             <section class="bg-gray-900">
                 <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-                    <div class="mx-auto max-w-lg text-center">
-                        <h2 class="text-3xl font-bold sm:text-2xl border-b-2 pb-2">My Education</h2>
+                    <div class="mx-auto max-w-lg">
+                        <h2 class="text-3xl font-bold sm:text-2xl border-b-2 pb-2">My Education Qualification</h2>
 
                     </div>
 
                     <div class="mt-8 grid grid-cols-1 gap-4">
                         <a
-                            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            class="block rounded-xl border border-gray-800 p-8 shadow-md transition hover:border-pink-500/10 hover:shadow-white"
                             href="/services/digital-campaigns"
                         >
                             <svg
@@ -36,12 +36,12 @@ const Education = () => {
 
                             <h2 class="mt-4 text-xl font-bold text-white">SSC</h2>
 
-                            <p class="mt-1 text-base text-gray-300"> School : Edgah Multilateral High School and Colege, Hathazari,Chittagong.</p>
+                            <p class="mt-1 text-base text-gray-300"> School : Edgah Multilateral High School and College, Hathazari,Chittagong.</p>
                             <p class="mt-1 text-sm text-gray-300"> CGPA : 4.44 </p>
                         </a>
 
                         <a
-                            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            class="block rounded-xl border border-gray-800 p-8 shadow-md transition hover:border-pink-500/10 hover:shadow-white"
                             href="/services/digital-campaigns"
                         >
                             <svg
@@ -66,13 +66,13 @@ const Education = () => {
                             <h2 class="mt-4 text-xl font-bold text-white">HSC</h2>
 
 
-                            <p class="mt-1 text-base text-gray-300">College : Hathazari  Government College,Hathazari,Chittagong.</p>
+                            <p class="mt-1 text-base text-gray-300">College : Hathazari  Government College, Hathazari, Chittagong.</p>
                             <p class="mt-1 text-sm text-gray-300"> CGPA : 3.00</p>
                         </a>
 
 
                         <a
-                            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+                            class="block rounded-xl border border-gray-800 p-8 shadow-md transition hover:border-pink-500/10 hover:shadow-white"
                             href="/services/digital-campaigns"
                         >
                             <svg

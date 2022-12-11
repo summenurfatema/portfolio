@@ -6,7 +6,7 @@ const Skills = () => {
             {/* fs */}
             <div className='space-y-3'>
 
-                <h1 className='text-2xl text-center my-7 border-b-2 border-dashed pb-4'>My Skills</h1>
+                <h1 className='text-3xl font-semibold my-7 border-b-2 pb-4'>My Skills</h1>
 
                 <div className=''>
                     <p className='text-xl mb-2'>HTML5</p>

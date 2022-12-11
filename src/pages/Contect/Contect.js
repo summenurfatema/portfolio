@@ -11,7 +11,7 @@ const Contect = () => {
     return (
         <div className='space-y-8 my-10 md:my-0' id='contact'>
             <div className='md:border-2 md:border-dashed p-4 rounded-lg'>
-                <h1 className='text-3xl font-semibold mb-7 text-center border-b-2 py-2'>Find me</h1>
+                <h1 className='text-3xl font-semibold mb-7 text-center border-b-2 py-2'>Find Me On</h1>
                 <ul className='space-y-5'>
 
                     <li className='flex flex-col md:flex-row  items-center'><FaPhone className='text-2xl' /><p className='text-sm  md:text-2xl pl-3'><a href="tel:+8801314335168">+8801314335168</a></p></li>
@@ -23,7 +23,7 @@ const Contect = () => {
                     <li className='flex flex-col md:flex-row  items-center'><FaFacebook className='text-2xl' /><a className='text-sm  md:text-2xl pl-3' href='https://www.facebook.com/summenurfatema'>https://www.facebook.com/summenurfatema</a></li>
 
 
-                    <li className='flex flex-col md:flex-row  items-center'><FaLinkedin className='text-2xl' /><a className='text-sm  md:text-2xl pl-3' href='https://www.linkedin.com/in/summenurfatema/'>https://www.linkedin.com/in/summenurfatema/</a></li>
+                    <li className='flex flex-col md:flex-row  items-center'><FaLinkedin className='text-2xl' /><a className='text-sm  md:text-2xl pl-3' href='https://www.linkedin.com/in/summenurfatema'>https://www.linkedin.com/in/summenurfatema</a></li>
 
 
                     <li className='flex flex-col md:flex-row items-center'><FaGithub className='text-2xl' /><a className='text-sm  md:text-2xl px-3 md:pl-3' href='https://www.github.com/summenurfatema'>https://www.github.com/summenurfatema</a></li>
