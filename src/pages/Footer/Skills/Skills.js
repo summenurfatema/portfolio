@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='my-10'>
+        <div className='my-10' id='skills'>
             {/* fs */}
             <div className='space-y-3'>
 

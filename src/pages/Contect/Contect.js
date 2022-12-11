@@ -9,7 +9,7 @@ import {
 
 const Contect = () => {
     return (
-        <div className='space-y-8 my-10 md:my-0'>
+        <div className='space-y-8 my-10 md:my-0' id='contact'>
             <div className='md:border-2 md:border-dashed p-4 rounded-lg'>
                 <h1 className='text-3xl font-semibold mb-7 text-center border-b-2 py-2'>Find me</h1>
                 <ul className='space-y-5'>

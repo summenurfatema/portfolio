@@ -1,7 +1,9 @@
+import Blog from "../pages/Blog/Blog";
 import Contect from "../pages/Contect/Contect";
 import Skills from "../pages/Footer/Skills/Skills";
 import Project from "../pages/Project/Project";
-import Resume from "../pages/Resume/Resume";
+import ProjectDetail from "../pages/ProjectDetail/ProjectDetail";
+
 
 const { createBrowserRouter } = require("react-router-dom");
 const { default: Main } = require("../layout/Main");
@@ -28,6 +30,15 @@ const router = createBrowserRouter([
             {
                 path: '/projects',
                 element: <Project />
+            },
+            {
+                path: '/blog',
+                element: <Blog />
+            },
+
+            {
+                path: '/allprojects',
+                element: <ProjectDetail />
             }
         ]
     }

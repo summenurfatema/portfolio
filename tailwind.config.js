@@ -3,8 +3,13 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  theme: {
-    extend: {},
+  daisyui: {
+    themes: [
+
+      "night",
+      "cupcake",
+    ],
+
   },
   plugins: [require("daisyui")],
 }

@@ -3,10 +3,11 @@ import furnica from '../../assets/furnica.png'
 import quiz from '../../assets/quiz.png'
 import learning from '../../assets/learning.png'
 import { FaArrowRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
-        <div>
+        <div id='projects'>
             <div className='space-y-2 md:space-y-6'>
                 <h1 className='text-2xl text-center border-b-2 mt-14 pb-4'>My Projects</h1>
                 <div className='py-4 md:py-10'>
@@ -76,7 +77,9 @@ const Project = () => {
                 </div>
 
             </div>
-            <button className='btn btn-outline mt-10 md:mt-20'>see more</button>
+            <Link to='/allprojects'>
+                <button className='btn btn-outline mt-10 md:mt-20'>see more</button>
+            </Link>
         </div>
 
     );
