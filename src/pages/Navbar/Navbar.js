@@ -1,13 +1,34 @@
-import React, { } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../assets/me.jpg'
 
 const Navbar = () => {
 
+    // const [dark, setDark] = useState(true)
+
+    // const handleDark = () => {
+    //     setDark(!dark)
+    //     //localStorage.setItem('dark',!dark)
+    // }
+
+    // useEffect(() => {
+    //     if (dark) {
+    //         document.querySelector("html").setAttribute("data-theme", "dark")
+
+    //     }
+    //     else {
+    //         document.querySelector("html").setAttribute("data-theme", "cupcake")
+    //     }
+    // }, [dark])
+
+
     return (
         <div className='flex flex-col items-center space-y-4 w-96 md:border-r-2'>
+            {/* <input type="checkbox" onClick={handleDark} className="toggle toggle-success" /> */}
 
             <div className=" rounded-full border-dotted border-4 border-indigo-300 relative">
+
+
 
                 <img src={img} className="h-44 rounded-full shadow-2xl p-1" alt='' />
             </div>
